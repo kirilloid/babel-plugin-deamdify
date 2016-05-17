@@ -1,0 +1,34 @@
+{
+  "name": "babel-plugin-deamdify",
+  "version": "1.0.0",
+  "description": "Strips AMD declarations to \"export\" inner declarations in e.g. jsdocs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirilloid/babel-plugin-deamdify.git"
+  },
+  "keywords": [
+    "amd",
+    "jsdocs",
+    "google-closure-compiler"
+  ],
+  "author": "kirilloid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kirilloid/babel-plugin-deamdify/issues"
+  },
+  "homepage": "https://github.com/kirilloid/babel-plugin-deamdify#readme",
+  "dependencies": {
+    "babel-core": "^6.7.2",
+    "babel-generator": "^6.7.2",
+    "babel-template": "^6.7.0",
+    "babel-types": "^6.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
